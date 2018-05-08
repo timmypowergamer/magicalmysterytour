@@ -12,6 +12,7 @@
 		050F82021F25B0C2005E5F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050F82001F25B0C2005E5F3A /* Main.storyboard */; };
 		050F82041F25B0C2005E5F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050F82031F25B0C2005E5F3A /* Assets.xcassets */; };
 		050F82071F25B0C2005E5F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050F82051F25B0C2005E5F3A /* LaunchScreen.storyboard */; };
+		050F82131F25C1E9005E5F3A /* SilveradoWalk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 050F82121F25C1E9005E5F3A /* SilveradoWalk.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,10 @@
 		050F82031F25B0C2005E5F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050F82061F25B0C2005E5F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		050F82081F25B0C2005E5F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050F82121F25C1E9005E5F3A /* SilveradoWalk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SilveradoWalk.gpx; sourceTree = "<group>"; };
+		058C3DC5208F943E005A81DE /* uni.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = uni.gpx; sourceTree = "<group>"; };
+		058C3DC6208F9B50005A81DE /* Uni.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Uni.gpx; path = ../../../Downloads/Uni.gpx; sourceTree = "<group>"; };
+		05CDBD8D2084592800C5744E /* beltline.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = beltline.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,10 @@
 		050F81F01F25B0C2005E5F3A = {
 			isa = PBXGroup;
 			children = (
+				058C3DC6208F9B50005A81DE /* Uni.gpx */,
+				058C3DC5208F943E005A81DE /* uni.gpx */,
+				05CDBD8D2084592800C5744E /* beltline.gpx */,
+				050F82121F25C1E9005E5F3A /* SilveradoWalk.gpx */,
 				050F81FB1F25B0C2005E5F3A /* magicalmysterytour */,
 				050F81FA1F25B0C2005E5F3A /* Products */,
 			);
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					050F81F81F25B0C2005E5F3A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E54GTQTE28;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +135,7 @@
 			files = (
 				050F82071F25B0C2005E5F3A /* LaunchScreen.storyboard in Resources */,
 				050F82041F25B0C2005E5F3A /* Assets.xcassets in Resources */,
+				050F82131F25C1E9005E5F3A /* SilveradoWalk.gpx in Resources */,
 				050F82021F25B0C2005E5F3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +273,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E54GTQTE28;
 				INFOPLIST_FILE = magicalmysterytour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.munchworksstudios.magicalmysterytour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E54GTQTE28;
 				INFOPLIST_FILE = magicalmysterytour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.munchworksstudios.magicalmysterytour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +318,7 @@
 				050F820D1F25B0C2005E5F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
